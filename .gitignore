@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Secrets and credentials
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Temporary OSINT reports and scans
+*.txt
+!requirements.txt
+*.csv
+temp_*
+dorking_*
+
+# IDE configs
+.idea/
+.vscode/
